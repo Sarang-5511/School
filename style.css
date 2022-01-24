@@ -364,8 +364,8 @@ ul{
         width: 180px;
         height: 40px;
         background-color: #BD3B1B;
-        color: black;
-        margin: 15px 0;
+        color: rgb(255, 255, 255);
+        margin-bottom: 30px;
     }
 
 }
