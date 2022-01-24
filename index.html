@@ -50,23 +50,30 @@
 
     </div>
     <section id="section1">
-        <nav>
-            <a class="navbar-brand py-2" href="index.html"> Late Devkibai Bang<br>
-                English
-                Medium High School & <br>Junior College Hingna,Nagpur</a>
-            <input type="checkbox" id="check">
-            <label for="check" class="menu-btn">
-
-                <i class="fa fa-bars"></i>
-            </label>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Administration</a></li>
-                <li><a href="#">Beyond Academics</a></li>
-                <li><a href="#">Inquiry</a></li>
-            </ul>
-        </nav>
+        <div class="nav-container1">
+            <nav class="navbar1">
+               
+                    <h1 id="navbar-logo">Late Devkibai Bang
+                        English
+                        Medium High School & Junior College </h1>
+           
+    
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu1">
+                    <li><a href="#" class="nav-links">Home</a></li>
+                    <li><a href="#" class="nav-links">About</a></li>
+                    <li><a href="#" class="nav-links">Administration</a></li>
+                    <li><a href="#" class="nav-links">Beyond Academics</a></li>
+                    <li><a href="#" class="nav-links">Inquiry</a></li>
+                </ul>
+    
+    
+            </nav>
+        </div>
         <div class="homebox">
             <p>Your's child future is in safe hands!</p>
            
@@ -317,11 +324,15 @@
 
 
 
-<script>
-    function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
-}
-</script>
+    <script>
+        const menu = document.querySelector("#mobile-menu");
+        const menulinks = document.querySelector(".nav-menu1");
+
+        menu.addEventListener('click', function () {
+            menu.classList.toggle('is-active');
+            menulinks.classList.toggle('active');
+        })
+    </script>
 
 
 
