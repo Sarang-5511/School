@@ -49,10 +49,9 @@ body{
    
 }
 
-.nav-container1{
+    .nav-container1{
 
     width: 100%;
-    /* background-color: rgb(255, 255, 255); */
     }
     .navbar1{
         display: grid;
@@ -358,7 +357,7 @@ ul{
     }
     .buttons{
         text-align: center;
-        /* width: 500px; */
+   
         margin:50px auto 0px;
     }
     .otherschools{
