@@ -364,7 +364,7 @@ ul{
 
 
 @media only screen and (max-width:940px) {
-    body{
+    html,body{
         overflow-x: hidden;
     }
     #section2{
