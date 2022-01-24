@@ -80,6 +80,14 @@ nav .menu-btn i{
     padding-right: 10px;
     display: none;
 }
+.navbar-brand{
+    color: black;
+
+}
+.navbar-brand:hover{
+    color: black;
+
+}
 #check{
     display: none;
 }
@@ -444,6 +452,11 @@ ul{
         margin: 10px auto;
        
         width:100%;
+    }
+    .buttons{
+        text-align: center;
+        /* width: 500px; */
+        margin:50px auto 0px;
     }
 
 
