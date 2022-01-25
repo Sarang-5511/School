@@ -89,6 +89,12 @@ body{
 .aboutus h2{
     margin-bottom: 20px;
 }
+.carousel{
+    margin: 33px auto 0;
+    text-align: center;
+    /* height: 284px; */
+    width: 500px;
+}
 .homebox{
     
     padding: 10px;
@@ -416,5 +422,11 @@ ul{
         margin-bottom: 45px;
         margin-top: 20px;
     }
-
+    .carousel{
+        vertical-align:middle;
+        margin: 0;
+        text-align: center;
+        width: 368px;
+        
+    }
 }
