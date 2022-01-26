@@ -37,8 +37,10 @@ body{
     
 }
 #management-section{
-     padding: 40px 27px;
-     background-color: aqua;
+     padding: 50px 27px;
+     
+     text-align: center;
+     margin: auto;
 }
 #section4{
     background-image: url(image\ behind\ the\ counter.png);
@@ -294,6 +296,34 @@ ul{
     
 
 }
+.profile-image{
+    vertical-align: middle;
+      max-width: 220px;
+      border-radius: 50%;
+      border: 5px solid rgb(196, 183, 183);
+      margin: 20px 0;
+  }
+  .message-button{
+      width: 80px;
+      height: 20px;
+      text-align: center;
+      padding: 8px;
+      background-color: #BD3B1B;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      /* margin-top: 20px; */
+  }
+  /* .manage-box{
+      margin: auto;
+      text-align: center;
+  } */
+  .message-col p{
+margin-bottom: 32px;
+  }
+  .message-col a{
+      text-decoration: none !important;
+      font-size: 17px;
+  }
 @media only screen and (max-width:940px) {
     html,body{
         overflow-x: hidden;
