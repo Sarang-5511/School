@@ -36,6 +36,10 @@ body{
     padding: 40px 27px;
     
 }
+#management-section{
+     padding: 40px 27px;
+     background-color: aqua;
+}
 #section4{
     background-image: url(image\ behind\ the\ counter.png);
     height: 350px;
