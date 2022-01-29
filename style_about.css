@@ -17,7 +17,7 @@ body{
     
 }
 #about-section{
-   margin: auto;
+   margin: 10px auto 150px;
 
 }
 #team-section{
@@ -25,6 +25,27 @@ body{
    
     padding: 40px 27px;
     background-color: rgb(4, 247, 255);
+}
+#section5{
+   
+    padding: 30px 4px;
+    background-color: #BD3B1B;
+   
+}
+.bacon{
+    position: absolute;
+    height: 105px;
+    width: 111px;
+    left: 264px;
+top: 284px;
+}
+.book{
+    position: absolute;
+width: 113px;
+height: 113px;
+right: 3px;
+top: 223px;
+transform: rotate(0deg);
 }
 .nav-container1{
     width: 100%;
@@ -82,6 +103,7 @@ body{
      color: rgb(0, 0, 0);
      width: fit-content;
      padding: 20px 40px;
+     
  }
 
 .page-link{
@@ -91,6 +113,7 @@ body{
     border: none;
     text-decoration: none !important;
 }
+
 .about-box{
     text-align: center;
     margin: auto;
@@ -102,6 +125,9 @@ body{
     letter-spacing: 1px;
 
 }
+.about-box  p{
+    margin-top: 40px;
+}
 .card-teacher{
     background-color: chocolate;
     width: 72%;
@@ -109,8 +135,64 @@ body{
     margin: auto;
     height: 280px;
 }
+.school-statements{
+    margin: 40px auto ;
+}
+.mission-school p{
+font-size: 18px;
+margin: 30px auto;
+}
+.teachers-other{
+    padding: 20px 0;
+}
+.teachers-other a{
+    text-decoration: none !important;
+    color: black;
+
+}
 
 
+/* Footer css */
+.container1{
+    color: white;
+    margin: 0px auto;
+  
+    width: auto;
+    padding: 0 10px;
+   
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 33.33%;
+    padding: 40px 25px;
+}
+.footer-col h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.footer-col ul li{
+    margin-bottom: 18px;
+}
+.foot-name p{
+    /* padding-top: -50px; */
+    font-size: 20px;
+}
+.foot-link ul{
+   position: relative;
+   left: -40px;
+}
+.foot-link ul li a{
+    font-size: 20px;
+    text-decoration: none !important;
+    color: white;
+}
 
 @media only screen and (max-width:940px) {
     html,body{
@@ -127,6 +209,26 @@ body{
         height: 48px;
         background-color: #BD3B1B;
         border: none;
+    }
+    #section5{
+        padding: 30px 5px;
+        background-color: #BD3B1B;
+       
+    }
+    .bacon{
+        position: absolute;
+        height: 75px;
+        width: 75px;
+        left: 40px;
+    top: 284px;
+    }
+    .book{
+        position: absolute;
+    width: 75px;
+    height: 75px;
+    right: 0px;
+    top: 450px;
+    transform: rotate(0deg);
     }
     .nav-container1{
         position: relative;
@@ -196,5 +298,30 @@ body{
     #mobile-menu.is-active .bar:nth-child(3){
         transform: translate(0px,-4px) rotate(-45deg);
      }
+     .footer-col{
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .footer-col h4{
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .foot-name p{
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .foot-link ul li a{
+        font-size: 16px;
+        text-decoration: none !important;
+        color: white;
+    }
+    .container1{
+        color: rgb(255, 255, 255);
+        margin: 10px auto;
+       
+        width:100%;
+    }
+
 
 }
