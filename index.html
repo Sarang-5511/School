@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -196,7 +198,7 @@
                         <img src="manage.jpg" alt="managment-photo" class="profile-image">
                         <h5>Name of member</h5>
                         <p>Chairperson</p>
-                       <a href="#" class="message-button">Read more</a>
+                        <a href="#" class="message-button">Read more</a>
                     </div>
                     <div class="col-lg-4 message-col">
                         <img src="manage.jpg" alt="managment-photo" class="profile-image">
@@ -250,7 +252,7 @@
                                 <input type="text" class="form-control" id="exampleFormControlInput1"
                                     placeholder="Phone Number">
                             </div>
-                           
+
                             <div class="form-group">
 
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
@@ -274,7 +276,7 @@
                     <div class="col-lg-6 links">
                         <a href="https://www.facebook.com/ldbems.hingna" target="_blank"><i
                                 class="fa fa-facebook-f mx-2"></i></a>
-                      
+
                         <a href="https://www.instagram.com/ldbems_hingna/" target="_blank"><i
                                 class="fa fa-instagram mx-2"></i></a>
                         <a href="https://youtube.com/channel/UCAQKUcbBa9uXZf-2el0wgGQ" target="_blank"><i
@@ -337,24 +339,24 @@
     <script>
         const menu = document.querySelector("#mobile-menu");
         const menulinks = document.querySelector(".nav-menu1");
-        const navlink=document.querySelector(".nav-links");
+        const navlink = document.querySelector(".nav-links");
         menu.addEventListener('click', function () {
             menu.classList.toggle('is-active');
             menulinks.classList.toggle('active');
 
         })
-
-        $(".nav-menu1 .nav-links").click(function(){
-            $(".nav-menu1").collapse('hide');
+        $(document).ready(function () {
+            $(".nav-menu1 .nav-links").click(function () {
+                $(".nav-menu1").collapse('hide');
+            });
         });
+
     </script>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
