@@ -12,19 +12,7 @@ body{
     border: none;
 }
 #section1{
-  
-    height: 250px;
-    
-}
-#about-section{
-   margin: 10px auto 150px;
-
-}
-#team-section{
-    margin: auto;
-   
-    padding: 40px 27px;
-    
+    height: 250px;  
 }
 #section5{
    
@@ -97,58 +85,42 @@ transform: rotate(0deg);
     transform: translate(0px,-4px) rotate(-45deg);
  }
 
-
  .direction-page{
-     /* background-color: rgb(255, 255, 255); */
-     color: rgb(0, 0, 0);
-     width: fit-content;
-     padding: 20px 40px;
-     
- }
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 20px 40px;
+    
+}
 
 .page-link{
-    font-size: 17px;
-    padding: 0 15px 0 5px ;
-    display: inline-block;
-    border: none;
-    text-decoration: none !important;
+   font-size: 17px;
+   padding: 0 15px 0 5px ;
+   display: inline-block;
+   border: none;
+   text-decoration: none !important;
 }
-
-.about-box{
-    text-align: center;
-    margin: auto;
-    width: 50%;
+#contact-section{
+    padding: 60px 27px;
 }
-.about-box h2{
-    
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-
+#contact-details{
+    padding: 0px 27px 30px 27px;
 }
-.about-box  p{
-    margin-top: 40px;
+.mapframe{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.card-teacher{
-    background-color: chocolate;
-    width: 72%;
-    display: flex;
-    margin: auto;
-    height: 280px;
+.contactrow h2{
+    margin-bottom: 30px;
 }
-.school-statements{
-    margin: 40px auto ;
+.contactrow2 h4{
+    font-weight: bold;
+    padding-bottom: 10px;
 }
-.mission-school p{
-font-size: 18px;
-margin: 30px auto;
-}
-.teachers-other{
-    padding: 20px 0;
-}
-.teachers-other a{
-    text-decoration: none !important;
-    color: black;
-
+/* .contactdetails h5{
+    margin-bottom: 20px;
+} */
+.contactsect h2{
+    margin-bottom: 20px;
 }
 
 
@@ -209,11 +181,6 @@ ul{
         height: 48px;
         background-color: #BD3B1B;
         border: none;
-    }
-    #section5{
-        padding: 30px 15px;
-        background-color: #BD3B1B;
-       
     }
     .bacon{
         position: absolute;
@@ -300,7 +267,17 @@ ul{
     #mobile-menu.is-active .bar:nth-child(3){
         transform: translate(0px,-4px) rotate(-45deg);
      }
-     .footer-col{
+   
+    #section5{
+        padding: 30px 15px;
+        background-color: #BD3B1B;
+       
+    }
+    #contact-section{
+        margin: 30px auto;
+        padding: 0px 20px;
+    }
+    .footer-col{
         width: 100%;
         padding: 30px 15px;
     }
@@ -324,6 +301,9 @@ ul{
        
         width:100%;
     }
-
-
+    .mapframe{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 306px;
+        margin: auto;
+    }
 }

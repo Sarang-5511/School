@@ -140,6 +140,7 @@ transform: rotate(0deg);
     display: none;
     background-color:black ;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .totop:hover{
     background-color: rgb(12, 9, 9);
@@ -153,6 +154,12 @@ transform: rotate(0deg);
 }
 .aboutus h2{
     margin-bottom: 20px;
+}
+.aboutus a{
+    color: black;
+}
+.aboutus a:hover{
+    color: rgb(34, 33, 33);
 }
 .carousel{
     margin: 33px auto 0;
@@ -211,12 +218,12 @@ transform: rotate(0deg);
     background-color: #BD3B1B;
     border-radius: 5px;
     text-decoration: none !important;
-    color: white;
+   
     display: block;
     margin-top: 40px;
 }
 .otherschool:hover{
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 }
 
 
