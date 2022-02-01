@@ -17,7 +17,7 @@ body{
     
 }
 #about-section{
-   margin: 10px auto 150px;
+   margin: 10px auto 130px;
 
 }
 #team-section{
@@ -130,10 +130,24 @@ transform: rotate(0deg);
 }
 .card-teacher{
     background-color: chocolate;
-    width: 72%;
-    display: flex;
+    width: 220px;
+    /* display: flex; */
     margin: auto;
-    height: 280px;
+    height: 340px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.card-teacher:hover{
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: rgba(41, 39, 39, 0.35) 0px 15px 15px;
+}
+.details{
+    text-align: center;
+    padding: 12px 0;
+}
+.details p{
+    /* padding-top: 5px;
+    line-height: 0; */
 }
 .school-statements{
     margin: 40px auto ;
@@ -149,6 +163,11 @@ margin: 30px auto;
     text-decoration: none !important;
     color: black;
 
+}
+.faculty-img{
+    width: 220px;
+    /* height: 260px; */
+   
 }
 
 
@@ -327,6 +346,19 @@ ul{
         margin: 10px auto;
        
         width:100%;
+    }
+    .card-teacher{
+        background-color: chocolate;
+        width: 80%;
+        /* display: flex; */
+        margin: auto;
+        height: 340px;
+        
+    }
+    .faculty-img{
+        width: 231px;
+        height:243px;
+       
     }
 
 
