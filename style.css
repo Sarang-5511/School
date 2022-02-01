@@ -365,6 +365,9 @@ ul{
       border-radius: 5px;
       /* margin-top: 20px; */
   }
+  .message-button:hover{
+      color: black;
+  }
   /* .manage-box{
       margin: auto;
       text-align: center;
