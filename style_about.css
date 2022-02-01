@@ -77,6 +77,9 @@ transform: rotate(0deg);
         text-decoration: none !important;
         color: rgb(0, 0, 0);
     } 
+    .nav-links:hover{
+        color: rgb(99, 85, 85);
+    }
     .menu-toggle .bar{
         width: 25px;
         height: 3px;
@@ -135,6 +138,7 @@ transform: rotate(0deg);
     margin: auto;
     height: 340px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
     
 }
 .card-teacher:hover{

@@ -107,6 +107,9 @@ transform: rotate(0deg);
         text-decoration: none !important;
         color: rgb(0, 0, 0);
     } 
+    .nav-links:hover{
+        color: rgb(99, 85, 85);
+    }
     .menu-toggle .bar{
         width: 25px;
         height: 3px;
@@ -550,7 +553,7 @@ margin-bottom: 5px;
         margin-left: 5px;
     }
     .nav-menu1.active{
-        background-color: grey;
+        background-color: #BD3B1B;
         left: 0;
         opacity: 1;
         padding-left: 0px;

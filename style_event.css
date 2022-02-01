@@ -79,6 +79,9 @@ transform: rotate(0deg);
         text-decoration: none !important;
         color: rgb(0, 0, 0);
     } 
+    .nav-links:hover{
+        color: rgb(99, 85, 85);
+    }
     .menu-toggle .bar{
         width: 25px;
         height: 3px;
