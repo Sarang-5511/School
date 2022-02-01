@@ -97,11 +97,12 @@ transform: rotate(0deg);
 }
 
 .page-link{
-   font-size: 17px;
-   padding: 0 15px 0 5px ;
-   display: inline-block;
-   border: none;
-   text-decoration: none !important;
+    color: black;
+    font-size: 18px;
+    padding: 0 15px 0 5px ;
+    display: inline-block;
+    border: none;
+    text-decoration: none !important;
 }
 #contact-section{
     padding: 0px 27px 30px 27px;

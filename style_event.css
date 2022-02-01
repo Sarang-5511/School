@@ -111,8 +111,9 @@ transform: rotate(0deg);
      
  }
 
-.page-link{
-    font-size: 17px;
+ .page-link{
+    color: black;
+    font-size: 18px;
     padding: 0 15px 0 5px ;
     display: inline-block;
     border: none;
