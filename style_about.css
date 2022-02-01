@@ -215,6 +215,10 @@ ul{
         background-color: #BD3B1B;
        
     }
+    #about-section{
+        margin: 10px auto 40px;
+     
+     }
     .bacon{
         position: absolute;
         height: 75px;
