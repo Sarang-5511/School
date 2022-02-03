@@ -46,7 +46,7 @@
                 </div>
                 <ul class="nav-menu1">
                     <li><a href="index.html" class="nav-links">Home</a></li>
-                    <li><a href="about.html" class="nav-links">About</a></li>                
+                    <li><a href="about.html" class="nav-links">About</a></li>
                     <li><a href="#" class="nav-links">Beyond Academics</a></li>
                     <li><a href="events.html" class="nav-links">Events</a></li>
                     <li><a href="contact.html" class="nav-links">Contact</a></li>
@@ -59,7 +59,70 @@
         </div>
         <div class="row adrow">
             <div class="col-lg-6 adbut">
-                <button type="button" class="btn inqbut">ADMISSIONS</button>
+                <button type="button" class="btn inqbut" data-toggle="modal"
+                    data-target="#exampleModal">ADMISSIONS</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Admission Inqiry Form</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="#">
+
+                                    <div class="form-group row">
+                                        <label for="question" class="col-sm-4 col-form-label">Name</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="name" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="option1" class="col-sm-4 col-form-label">Phone number</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="phonenumber" name="phonenumber">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="option2" class="col-sm-4 col-form-label">Standard</label>
+                                        <div class="col-sm-8">
+                                            <select name="standard" id="standard" class="form-control">
+                                                <option value="null" disabled>--Select Standard--</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+                                                <option value="Nursery"> Nursery</option>
+
+
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-lg-6 adbut2">
