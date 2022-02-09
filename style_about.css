@@ -150,10 +150,9 @@ transform: rotate(0deg);
     text-align: center;
     padding: 12px 0;
 }
-.details p{
-    /* padding-top: 5px;
-    line-height: 0; */
-}
+/* .details p{
+    
+} */
 .school-statements{
     margin: 40px auto ;
 }

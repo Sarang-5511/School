@@ -16,7 +16,8 @@ body{
     background-color:#87B615;
     border: none;
     color: black;
-    font-size: 30px;
+    font-size: 24px;
+    
   
     
 }
@@ -205,12 +206,18 @@ transform: rotate(0deg);
     text-align: right;
 
 }
-.inqbut{
+.inqbut2{
+    width: 160px;
+    height: 50px;
     background-color: #BD3B1B;
     color: white;
     margin: 0;
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
 
 }
 .adbut{
@@ -222,8 +229,8 @@ transform: rotate(0deg);
     padding: 10px;
     background-color: #BD3B1B;
     border-radius: 5px;
-    text-decoration: none !important;
    
+   color: rgb(255, 255, 255) !important;
     display: block;
     margin-top: 40px;
 }
@@ -239,7 +246,7 @@ transform: rotate(0deg);
     width: 180px;
     height: 40px;
     background-color: #BD3B1B;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .symbol{

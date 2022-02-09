@@ -16,39 +16,15 @@ body{
     height: 250px;
     
 }
-
+#sport-section{
+    margin: 20px auto;
+}
 #section5{
    
     padding: 30px 4px;
     background-color: #BD3B1B;
    
 }
-#gathering-event{
-    padding: 40px 27px 80px;
-}
-#gathering-gallery{
-    padding: 30px 0;
-    margin: auto;
-    text-align: center;
-}
-h2{
-    margin-bottom: 3s0px;
-}
-/* .bacon{
-    position: absolute;
-    height: 105px;
-    width: 111px;
-    left: 264px;
-top: 284px;
-}
-.book{
-    position: absolute;
-width: 113px;
-height: 113px;
-right: 3px;
-top: 223px;
-transform: rotate(0deg);
-} */
 .nav-container1{
     width: 100%;
 }
@@ -111,7 +87,7 @@ transform: rotate(0deg);
      
  }
 
- .page-link{
+.page-link{
     color: black;
     font-size: 18px;
     padding: 0 15px 0 5px ;
@@ -119,7 +95,6 @@ transform: rotate(0deg);
     border: none;
     text-decoration: none !important;
 }
-
 /* Footer css */
 .container1{
     color: white;
@@ -168,21 +143,10 @@ ul{
     margin: auto;
     box-shadow: rgba(41, 39, 39, 0.35) 0px 5px 15px;
 }
-
-
-/* 
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-   }
-   
-   .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-   } */
-   .carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert(1);
+.competition-name{
+    line-height: 0;
+    padding: 30px 0 0 0;
 }
-
 
 @media only screen and (max-width:940px) {
     html,body{
@@ -200,29 +164,10 @@ ul{
         background-color: #BD3B1B;
         border: none;
     }
-    #gathering-event{
-        padding: 40px 5px 10px;
-    }
     #section5{
-        padding: 30px 5px;
+        padding: 30px 15px;
         background-color: #BD3B1B;
-       
     }
-    /* .bacon{
-        position: absolute;
-        height: 75px;
-        width: 75px;
-        left: 40px;
-    top: 284px;
-    }
-    .book{
-        position: absolute;
-    width: 75px;
-    height: 75px;
-    right: 0px;
-    top: 450px;
-    transform: rotate(0deg);
-    } */
     .nav-container1{
         position: relative;
     }
@@ -317,7 +262,6 @@ ul{
        
         width:100%;
     }
-
     .photo-gallery-images{
        
         width: 334px;
@@ -326,9 +270,6 @@ ul{
         margin: auto;
         box-shadow: rgba(41, 39, 39, 0.35) 0px 5px 15px;
     }
-    .gathering-cara{
-    width: 343px;
-    height: 200px;
-    }
+
 
 }
