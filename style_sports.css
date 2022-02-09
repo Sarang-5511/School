@@ -264,7 +264,7 @@ ul{
     }
     .photo-gallery-images{
        
-        width: 334px;
+        width:100%;
         height: 240px;
         border: none; 
         margin: auto;
