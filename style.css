@@ -198,18 +198,30 @@ transform: rotate(0deg);
 
 }
 .inqbut{
+    background-color: transparent;
+    color: #BD3B1B;
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: right;
+    border: 1px solid #BD3B1B;
+    border-radius: 15px;
+
+}
+.inqbut3{
     background-color: #BD3B1B;
     color: white;
     margin: 0;
     font-size: 20px;
     letter-spacing: 1px;
     text-align: right;
+    border-radius: 15px;
 
 }
 .inqbut2{
     width: 160px;
     height: 50px;
-    background-color: #BD3B1B;
+    
     color: white;
     margin: 0;
     font-size: 24px;
