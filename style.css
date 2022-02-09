@@ -425,9 +425,10 @@ margin-bottom: 5px;
     font-size: 18px;
 }
 .infra-imagesbox{
-     margin: 5px 0;
+     margin: 8px 0;
 }
 .infra-images{
+    margin-right: 3px;
    display: inline-block;
     width: 346px;
 }
