@@ -424,6 +424,13 @@ margin-bottom: 5px;
     font-weight: bold;
     font-size: 18px;
 }
+.infra-imagesbox{
+     margin: 5px 0;
+}
+.infra-images{
+   display: inline-block;
+    width: 346px;
+}
 @media only screen and (max-width:940px) {
     .modal{
         margin: 0 10px;
@@ -687,4 +694,12 @@ margin-bottom: 5px;
         /* margin-top: 20px; */
         font-size: 16px;
     }
+    .infra-imagesbox{
+        margin: 0;
+   }
+    .infra-images{
+        margin: 5px auto;
+        display: inline-block;
+         width: 100%;
+     }
 }
