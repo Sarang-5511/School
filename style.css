@@ -713,4 +713,9 @@ margin-bottom: 5px;
         display: inline-block;
          width: 100%;
      }
+     .addmission-slogan{
+         text-align: center;
+        padding-top: 0px;
+        vertical-align: middle;
+    }
 }
