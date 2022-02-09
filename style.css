@@ -208,6 +208,19 @@ transform: rotate(0deg);
     border-radius: 15px;
 
 }
+.inqbut:hover{
+    background-color:#BD3B1B;
+    color: white;
+}
+.addmission-slogan{
+    padding-top: 8px;
+    vertical-align: middle;
+}
+.addmission-slogan p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
 .inqbut3{
     background-color: #BD3B1B;
     color: white;
@@ -217,6 +230,11 @@ transform: rotate(0deg);
     text-align: right;
     border-radius: 15px;
 
+}
+.inqbut3:hover{
+    background-color: transparent;
+    color: #BD3B1B;
+    border: 1px solid #BD3B1B;
 }
 .inqbut2{
     width: 160px;
