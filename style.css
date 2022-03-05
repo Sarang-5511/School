@@ -432,6 +432,18 @@ margin-bottom: 5px;
    display: inline-block;
     width: 346px;
 }
+.prinmsg{
+    margin: 40px 0 20px;
+    padding: 20px 0;
+    /* background-color: #87B615; */
+    text-align: left;
+}
+.prinmsg h2{
+    padding-bottom: 10px;
+}
+.msgbox{
+    padding:  0;
+}
 @media only screen and (max-width:940px) {
     .modal{
         margin: 0 10px;

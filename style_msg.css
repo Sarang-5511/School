@@ -14,39 +14,14 @@ body{
 #section1{
     height: 250px;
 }
-
+#section2{
+    padding: 20px 27px 40px;
+}
 #section5{
     padding: 30px 4px;
     background-color: #BD3B1B;
    
 }
-#gathering-event{
-    text-align: center;
-    padding:20px 27px;
-}
-#gathering-gallery{
-    padding: 30px 0;
-    margin: auto;
-    text-align: center;
-}
-h2{
-    margin-bottom: 3s0px;
-}
-/* .bacon{
-    position: absolute;
-    height: 105px;
-    width: 111px;
-    left: 264px;
-top: 284px;
-}
-.book{
-    position: absolute;
-width: 113px;
-height: 113px;
-right: 3px;
-top: 223px;
-transform: rotate(0deg);
-} */
 .nav-container1{
     width: 100%;
 }
@@ -159,32 +134,21 @@ ul{
     text-decoration: none !important;
     color: white;
 }
-.photo-gallery-images{
-    width: 400px;
-    height: 240px;
-    border: none; 
-    margin: auto;
-    box-shadow: rgba(41, 39, 39, 0.35) 0px 5px 15px;
-}
-
-
-/* 
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-   }
-   
-   .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-   } */
-   .carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert(1);
-}
-.eventsbox h4{
-padding:15px 0 0 0;
-font-weight: 600;
-}
-
+.profile-image{
+    vertical-align: middle;
+      max-width: 250px;
+      border-radius: 50%;
+      border: 7px solid rgb(196, 183, 183);
+      margin: 20px 0;
+  }
+  .manmsg{
+      line-height: 30px;
+      padding: 20px;
+      text-align: justify;
+      background-color: #fff4f1;
+      width: 50%;
+      margin: auto;
+  }
 @media only screen and (max-width:940px) {
     html,body{
         overflow-x: hidden;
@@ -201,29 +165,6 @@ font-weight: 600;
         background-color: #BD3B1B;
         border: none;
     }
-    #gathering-event{
-        padding: 40px 5px 10px;
-    }
-    #section5{
-        padding: 30px 5px;
-        background-color: #BD3B1B;
-       
-    }
-    /* .bacon{
-        position: absolute;
-        height: 75px;
-        width: 75px;
-        left: 40px;
-    top: 284px;
-    }
-    .book{
-        position: absolute;
-    width: 75px;
-    height: 75px;
-    right: 0px;
-    top: 450px;
-    transform: rotate(0deg);
-    } */
     .nav-container1{
         position: relative;
     }
@@ -317,19 +258,6 @@ font-weight: 600;
         margin: 10px auto;
        
         width:100%;
-    }
-
-    .photo-gallery-images{
-       
-        width: 100%;
-        height: 240px;
-        border: none; 
-        margin: auto;
-        box-shadow: rgba(41, 39, 39, 0.35) 0px 5px 15px;
-    }
-    .gathering-cara{
-    width: 343px;
-    height: 200px;
     }
 
 }
