@@ -259,5 +259,13 @@ ul{
        
         width:100%;
     }
+    .manmsg{
+        line-height: 28px;
+        padding: 10px;
+        text-align: justify;
+        background-color: #fff4f1;
+        width: 100%;
+        margin: auto;
+    }
 
 }
