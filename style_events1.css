@@ -164,6 +164,11 @@ ul{
 .gallery-image{
 width: 400px;
 height: 300px;
+transition: transform 500ms ease-out;
+}
+.gallery-image:hover{
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 

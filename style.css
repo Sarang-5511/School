@@ -43,6 +43,10 @@ body{
      text-align: center;
      margin: auto;
 }
+#resultsection{
+    padding: 40px 27px;
+    background-color: aqua;
+}
 #section4{
     background-image: url(image\ behind\ the\ counter.png);
     height: 350px;
@@ -444,6 +448,59 @@ margin-bottom: 5px;
 .msgbox{
     padding:  0;
 }
+
+.timeline-items{
+    padding: 20px;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.timeline-items::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #000000;
+    left: 50%;
+    
+}
+.timeline-item{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+.timeline-item:nth-child(odd){
+padding-right: calc(50% + 30px);
+text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+    text-align: left;
+
+}
+.timeline-dot{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 7px);
+    top: 5px;
+}
+.timeline-date{
+    font-size: 25px;
+    color: deeppink;
+    
+
+}
+
+.timeline-content{
+    padding: 30px;
+    background-color: #BD3B1B;
+
+}
 @media only screen and (max-width:940px) {
     .modal{
         margin: 0 10px;
@@ -730,4 +787,41 @@ margin-bottom: 5px;
         padding-top: 0px;
         vertical-align: middle;
     }
+
+    .timeline-item:nth-child(odd){
+        padding: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(even){
+        padding: 0;
+        text-align: left;
+    }
+    .timeline-dot{
+        width: 16px;
+        height: 16px;
+        background-color: blue;
+        border-radius: 50%;
+        position: absolute;
+        left:-19px;
+        top: 10px;
+    }
+    .timeline-items::before{
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 100%;
+        background-color: #000000;
+        left: 7px;
+    }
+    .timeline-date{
+        font-size: 22px;
+        color: deeppink;
+        padding-left: 20px;
+    
+    }
+    .timeline-content{
+        padding: 10px 0 0 20px;
+    }
+    
+  
 }
