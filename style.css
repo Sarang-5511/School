@@ -45,7 +45,7 @@ body{
 }
 #resultsection{
     padding: 40px 27px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 #section4{
     background-image: url(image\ behind\ the\ counter.png);
@@ -470,7 +470,7 @@ margin-bottom: 5px;
     margin-bottom: 40px;
     width: 100%;
     position: relative;
-}
+   }
 .timeline-item:nth-child(odd){
 padding-right: calc(50% + 30px);
 text-align: right;
@@ -483,7 +483,7 @@ text-align: right;
 .timeline-dot{
     width: 20px;
     height: 20px;
-    background-color: blue;
+    background-color: rgb(233, 101, 13);
     border-radius: 50%;
     position: absolute;
     left: calc(50% - 7px);
@@ -498,7 +498,8 @@ text-align: right;
 
 .timeline-content{
     padding: 30px;
-    background-color: #BD3B1B;
+    color: orangered;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 @media only screen and (max-width:940px) {
